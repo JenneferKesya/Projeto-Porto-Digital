@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+}
+body {
+    background-image: linear-gradient(45deg,rgb(1, 1, 43), rgb(255, 255, 255)) ;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.cardPlayer {
+    background-image: linear-gradient(45deg,rgb(15, 15, 145), rgb(209, 205, 205)) ;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.conteudoMusica p {
+    font-size: 2.4rem;
+}
+
+.conteudoMusica span {
+    font-size: 1.8rem;
+}
+
+.descricao {
+    margin: 20px 0px 20px 0px;
+
+}
+
+.descricao span {
+    color: #9895a5;
+}
+
+.controles {
+    margin: 10px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+}
+
+.controles button {
+    background-color: transparent;
+    border: none;
+}
+
+.containerProgresso{
+    margin-top: 50px;
+}
+
+.containerProgresso input {
+    margin-top: 10px;
+    width: 100%;
+}
+.tempoDeBusca {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+
+.hide {
+    display: none;
+}
+
+#fotoMusica {
+    height: 230px;
+    width: 250pt;
+}
+
