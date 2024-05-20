@@ -8,7 +8,7 @@
     font-size: 62.5%;
 }
 body {
-    background-image: linear-gradient(45deg,rgb(1, 1, 43), rgb(255, 255, 255)) ;
+    background-image: linear-gradient(50deg,rgb(55, 56, 55), rgb(43, 42, 42)) ;
 }
 
 .container {
@@ -19,8 +19,8 @@ body {
     width: 50%;
 }
 .cardPlayer {
-    background-image: linear-gradient(45deg,rgb(15, 15, 145), rgb(209, 205, 205)) ;
-    color: #fff;
+   background-color: black;
+    color:  #ffffff;
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -40,7 +40,7 @@ body {
 }
 
 .descricao span {
-    color: #9895a5;
+    color: #dadfdd7e;
 }
 
 .controles {
@@ -48,6 +48,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 10px;
+   
 }
 
 .controles button {
@@ -62,6 +63,7 @@ body {
 .containerProgresso input {
     margin-top: 10px;
     width: 100%;
+    border: white;
 }
 .tempoDeBusca {
     margin-top: 10px;
@@ -78,5 +80,9 @@ body {
 #fotoMusica {
     height: 230px;
     width: 250pt;
+    border: 1px solid   #ffffff;
 }
 
+.tempoDeBusca{
+    color:   #ffffff;
+}
